@@ -1,4 +1,52 @@
+:root{
+    --pr-color: #048853;
+}
+
+
 body{
     font-family: 'Poppins', sans-serif;
-    background-color: green;
+    background-color: #f3fff4;
+}
+
+.navbar-brand{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+
+.nav-link{
+     font-size: 16px;
+}
+
+.nav-link.active{
+    font-weight: 700;
+}
+
+.button-secondary{
+    width: 133px;
+    height: 40px;
+    background-color: #fff !important;
+    color: var(--pr-color);
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.button-primary{
+    width: 133px;
+    height: 40px;
+    background-color: transparent;
+    color: #fff !important;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+
+/* Hero section */
+#hero{
+  background: linear-gradient(160deg, var(--pr-color), #000) !important;
+  height: 100vh;
+  width: 100%;
+  
 }
